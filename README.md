@@ -2,16 +2,22 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+<h3>La ejecución de la app se hace por medio de:</h3>
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+> u5u6-react-ssr@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.3.1
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.13:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ○ Compiling /movie/[id] ...
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -20,17 +26,24 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+Este proyecto de TuCine cuenta con tres apartados:
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2>Home</h2>
+</br> Se muestra una lista de las películas más populares en el momento.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<img src="./pictures/home.png" alt="Logo" width="800"/>
+</br>
+<h2>Detail</h2>
+</br> Se muestra más información de la película selccionada.
 
-## Deploy on Vercel
+<img src="./pictures/detail.png" alt="Logo" width="800"/>
+</br>
+<h2>Search</h2>
+</br> Como se puede ver en la cabecera de la web, es posible introducir un texto el cual nos presentará 
+una lista de películas que coincidan con dicha cadena.
+<img src="./pictures/search.png" alt="Logo" width="800"/>
+</br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Se le ha de configurar un .env, se adjunta uno de ejemplo.
