@@ -37,7 +37,7 @@ Este proyecto de TuCine cuenta con tres apartados:
 <h2>Detail</h2>
 </br> Se muestra más información de la película selccionada.
 
-<img src="./pictures/detail.png" alt="Logo" width="800"/>
+<img src="./pictures/Detail.png" alt="Logo" width="800"/>
 </br>
 <h2>Search</h2>
 </br> Como se puede ver en la cabecera de la web, es posible introducir un texto el cual nos presentará 
